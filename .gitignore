@@ -1,0 +1,43 @@
+# --- Python / uv ---
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDE / système ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Configuration et pilotage IA (Claude, Codex, Qwen) ---
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.codex/
+.codex-last.txt
+.codex-prompt.txt
+docs/AVANCEMENT.md
+docs/GUIDE-EQUIPE.md
+docs/PROMPT-*.md
+
+# --- Données locales du jeu ---
+sauvegardes/
+shots/
+
+# --- Assets ---
+# Images brutes rejetées par la relecture (Codex)
+assets/raw/_rejected/
+# Vignettes de contrôle des planches de poses
+assets/img/*/_preview.png
+# Fichiers audio officiels déposés par l'utilisateur (droits d'auteur) : seul le mode d'emploi est versionné
+assets/audio/original/*
+!assets/audio/original/LISEZMOI.txt
