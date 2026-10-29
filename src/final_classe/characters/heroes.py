@@ -23,8 +23,8 @@ class Hero(Character):
 
     def __init__(self, name: str, strength: int, magic: int, defense: int, resistance: int) -> None:
         super().__init__(
-            # name, self.BASE_HP, self.BASE_MP, strength, magic, defense, resistance, self.SPEED
-            name, self.BASE_HP, self.BASE_MP, 999, 999, defense, resistance, self.SPEED
+            name, self.BASE_HP, self.BASE_MP, strength, magic, defense, resistance, self.SPEED
+            # name, self.BASE_HP, self.BASE_MP, 999, 999, defense, resistance, self.SPEED
         )
         self.level = 1
         self.xp = 0
